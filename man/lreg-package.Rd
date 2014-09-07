@@ -3,5 +3,9 @@
 \name{lreg-package}
 \alias{lreg}
 \alias{lreg-package}
+\title{My regression package}
+\description{
+My regression package
+}
 \keyword{package}
 
