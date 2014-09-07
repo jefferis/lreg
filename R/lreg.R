@@ -19,7 +19,16 @@ setClass(
      )
   )
 
-
+#' carry out regression
+#' @param X,y inputs
+#' @param predictors defaults to \code{colnames(x)}
+#' @param max.iter maximum number of iterations (default: 10)
+#' @param tol tolerance
+#' @param constant add a constant
+#' @param ... Additional arguements (currently ignored)
+#' @export
+#' @return an object of class lreg5
+#' @seealso \code{\link{lreg5-class}}
 lreg5 <-
   function(X, y, predictors=colnames(X), max.iter=10,
         tol=1E-6, constant=TRUE, ...) {
