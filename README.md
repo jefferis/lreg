@@ -1,21 +1,24 @@
 # lreg
 
-## Installation
-Currently there isn't a released version on [CRAN](http://cran.r-project.org/).
+A simple example of a package using S4 classes and roxygen2 for documentation.
 
-### Released versions
-Released versions are available from our lab repository:
+See http://stackoverflow.com/questions/25569870/developing-r-package-when-functions-are-written-in-s4-and-using-roxygen2
+
+## Testing
+
+* clone the repository
+* start R
 
 ```r
-install.packages("lreg",repos='http://jefferislab.org/R',type='source')
+setwd("/path/to/lreg")
+library(devtools)
+check()
 ```
 
-### Bleeding Edge
-You can use the **devtools** package to install the development version:
+## Installation
+Should you just wish to install this package, you can use **devtools**:
 
 ```r
 if (!require("devtools")) install.packages("devtools")
 devtools::install_github("jefferis/lreg")
 ```
-
-Note: Windows users need [Rtools](http://www.murdoch-sutherland.com/Rtools/) and [devtools](http://CRAN.R-project.org/package=devtools) to install this way.
