@@ -29,6 +29,9 @@ setClass(
 #' @export
 #' @return an object of class lreg5
 #' @seealso \code{\link{lreg5-class}}
+#' @examples
+#' lreg5(X=matrix(rnorm(3*100),ncol=3, dimnames = list(NULL, letters[1:3])), 
+#'       y=sample(0:1,100, replace=TRUE))
 lreg5 <-
   function(X, y, predictors=colnames(X), max.iter=10,
         tol=1E-6, constant=TRUE, ...) {

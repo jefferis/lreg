@@ -25,6 +25,10 @@ an object of class lreg5
 \description{
 carry out regression
 }
+\examples{
+lreg5(X=matrix(rnorm(3*100),ncol=3, dimnames = list(NULL, letters[1:3])),
+      y=sample(0:1,100, replace=TRUE))
+}
 \seealso{
 \code{\link{lreg5-class}}
 }
