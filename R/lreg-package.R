@@ -4,4 +4,5 @@
 #' @aliases lreg
 #' @docType package
 #' @keywords package
+#' @import methods
 NULL
