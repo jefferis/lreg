@@ -1,11 +1,11 @@
 Package: lreg
 Type: Package
-Title: What the package does (short line)
+Title: Test package for S4 methods + roxygen2
 Version: 1.0
 Date: 2014-09-07
 Author: Who wrote it
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Description: Test package for S4 methods + roxygen2
+License: GPL-3
 Depends:
     methods
